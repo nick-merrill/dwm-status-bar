@@ -1,6 +1,8 @@
 # DWM Status Bar
 
-## Configuration
+## Running
+
+### Configuration
 
 Run:
 
@@ -8,15 +10,23 @@ Run:
 
 Edit `config.h` to your liking.
 
-## Build and Run
+### Build and Run
 
 Run:
 
     make
     ./dwm-status-bar
 
-## Installation
+### Installation
 
 Simply copy the `dwm-status-bar` executable to any `bin` directory
 that is on your path, for example, `/usr/local/bin/`.
+
+## About
+
+### What the heck is "day percentage"?
+
+Day percentage is simply a measurement of how much time in your day has
+passed.  You can set the start and end times of your day in the `config.h`
+file.
 
