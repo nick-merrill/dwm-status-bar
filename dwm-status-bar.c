@@ -24,7 +24,7 @@ int setStatus(void) {
         "%s -- %s; [Mem: %s]   [Bat: %2.0f %s]   [Temp: %s]",
         date(), dayPercent(), ram(),
         batteryPercent() * 100, batteryStatus(),
-        getTemperature("/sys/class/hwmon/hwmon2", "temp2_input")
+        getTemperature(TEMPERATURE_DIR, TEMPERATURE_INPUT)
     );
     strcat(status, remainingStatus);
     XSetRoot(status);

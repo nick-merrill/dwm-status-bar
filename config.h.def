@@ -1,8 +1,5 @@
 #include "dwm-status-bar.h"
 
-/*
- * [Begin Settings]
- */
 // Time
 #define TIME_FORMAT "%a %Y-%m-%d %I:%M:%S %p %Z"
 
@@ -16,4 +13,9 @@
 static const Countdown countdowns[2] = {
     { .title = "Pi Party ", .finalDatetime = "2314-15-92 06:53:59 EST" }
 };
+
+#define BATTERY_DIR "/sys/class/power_supply/BAT0/"
+
+#define TEMPERATURE_DIR "/sys/class/hwmon/hwmon2"
+#define TEMPERATURE_INPUT "temp2_input"
 

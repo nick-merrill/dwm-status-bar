@@ -23,7 +23,6 @@ typedef struct Countdowns {
 #include <unistd.h>
 
 #define MAXSTR 1024
-#define BATTERY_DIR "/sys/class/power_supply/BAT0/"
 #define SECONDS_PER_MINUTE 60
 #define SECONDS_PER_HOUR (SECONDS_PER_MINUTE * 60)
 #define SECONDS_PER_DAY (SECONDS_PER_HOUR * 24)
