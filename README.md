@@ -1,3 +1,6 @@
+***This project has migrated to
+[Awesome Status Bar](https://github.com/cloudrave/awesome-status-bar).***
+
 # DWM Status Bar
 
 ## Running
